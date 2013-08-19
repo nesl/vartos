@@ -1,0 +1,31 @@
+set datafile separator " "
+
+
+f100="results_100bins"
+f100(x) = a100*x + b100
+fit f100(x) f100 u 1:2  via a100, b100
+
+f10="results_10bins"
+f10(x) = a10*x + b10
+fit f10(x) f10 u 1:2  via a10, b10
+
+f5="results_5bins"
+f5(x) = a5*x + b5
+fit f5(x) f5 u 1:2  via a5, b5
+
+f3="results_3bins"
+f3(x) = a3*x + b3
+fit f3(x) f3 u 1:2  via a3, b3
+
+set grid ytics 
+set grid xtics 
+set xrange [1:8]
+set sample 8
+set xlabel "# Training sets" 
+set ylabel "Estimation Error (%)"
+#set ylabel "Estimation Error (uW)"
+plot f100(x) w lp lw 4 t "100 bins", f10(x) w lp lw 4 t "10 bins", f5(x) w lp lw 4 t "5 bins", f3(x) w lp lw 4 t "3 bins" 
+set terminal postscript size 6,3.33 color
+set output "temperature_estimation_error.eps"
+replot
+set terminal x11

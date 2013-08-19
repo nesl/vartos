@@ -1,0 +1,112 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format-Journals.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bibliography.bib
+Database file #2: variability.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--require articleno with numpages field in green2010
+Warning--require articleno with numpages field in balaji2012
+Warning--empty publisher in Bathen:2012
+Warning--empty address in Bathen:2012
+Warning--require articleno with numpages field in qemu
+Warning--empty publisher in BhardwajWV06
+Warning--empty address in BhardwajWV06
+Warning--empty publisher in Bhunia:2007
+Warning--empty address in Bhunia:2007
+Warning--empty address in Borkar:2003
+Warning--require articleno with numpages field in Borkar:2003
+Warning--empty publisher in Cao:2002
+Warning--empty address in Cao:2002
+Warning--empty publisher in Chan:2012
+Warning--empty address in Chan:2012
+Warning--empty address in Choi:2004
+Warning--require articleno with numpages field in Choi:2004
+Warning--empty publisher in Datta:2005
+Warning--empty address in Datta:2005
+Warning--empty publisher in Dighe:2010
+Warning--empty address in Dighe:2010
+Warning--empty publisher in Ernst:2003
+Warning--empty address in Ernst:2003
+Warning--empty address in garg2007
+Warning--require articleno with numpages field in garg2007
+Warning--empty address in ghasemzadeh2012
+Warning--require articleno with numpages field in ghasemzadeh2012
+Warning--empty publisher in gupta2003
+Warning--empty address in gupta2003
+Warning--empty booktitle in ITRS
+Warning--empty publisher in ITRS
+Warning--empty address in ITRS
+Warning--require articleno with numpages field in Kang:2006
+Warning--require articleno with numpages field in Khandelwal:2007
+Warning--empty publisher in Lachenmann
+Warning--empty address in Lachenmann
+Warning--empty publisher in matsuda2006
+Warning--empty address in matsuda2006
+Warning--empty publisher in leap
+Warning--empty address in leap
+Warning--empty publisher in Meng:2006
+Warning--empty address in Meng:2006
+Warning--empty publisher in Neiroukh:2005
+Warning--empty address in Neiroukh:2005
+Warning--page numbers missing in both pages and numpages fields in Neiroukh:2005
+Warning--empty address in RabaeyCN96
+Warning--empty publisher in Rahimi:2012
+Warning--empty address in Rahimi:2012
+Warning--require articleno with numpages field in Rahimi:2012
+Warning--empty address in Rumble:2009
+Warning--require articleno with numpages field in Rumble:2009
+Warning--empty publisher in Teodorescu:2008
+Warning--empty address in Teodorescu:2008
+Warning--require articleno with numpages field in Tiwari:2007
+Warning--empty publisher in Tschanz:2002
+Warning--empty address in Tschanz:2002
+Warning--empty publisher in WangYB07
+Warning--empty address in WangYB07
+Warning--require articleno with numpages field in Zeng:2002
+Warning--empty publisher in Zheng:2009
+Warning--empty address in Zheng:2009
+You've used 51 entries,
+            5290 wiz_defined-function locations,
+            1661 strings with 26577 characters,
+and the built_in function-call counts, 58275 in all, are:
+= -- 6996
+> -- 2713
+< -- 2
++ -- 854
+- -- 968
+* -- 4160
+:= -- 6586
+add.period$ -- 255
+call.type$ -- 51
+change.case$ -- 407
+chr.to.int$ -- 51
+cite$ -- 112
+duplicate$ -- 4705
+empty$ -- 3298
+format.name$ -- 1080
+if$ -- 13880
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 210
+newline$ -- 448
+num.names$ -- 408
+pop$ -- 1869
+preamble$ -- 1
+purify$ -- 662
+quote$ -- 0
+skip$ -- 1351
+stack$ -- 0
+substring$ -- 4493
+swap$ -- 513
+text.length$ -- 124
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 708
+warning$ -- 61
+while$ -- 374
+width$ -- 0
+write$ -- 934
+(There were 61 warnings)

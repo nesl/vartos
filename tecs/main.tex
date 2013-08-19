@@ -1,0 +1,162 @@
+%			CLASS STYLE				%
+\documentclass[prodmode,acmtecs]{acmsmall}
+
+% Metadata Information
+\acmVolume{12}
+\acmNumber{3}
+\acmArticle{1}
+\articleSeq{1}
+\acmYear{2013}
+\acmMonth{5}
+
+% Package to generate and customize Algorithm as per ACM style
+\usepackage[ruled]{algorithm2e}
+\renewcommand{\algorithmcfname}{ALGORITHM}
+\SetAlFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlCapNameFnt{\small}
+\SetAlCapHSkip{0pt}
+\IncMargin{-\parindent}
+
+%		PACKAGES & MACROS		%
+%\usepackage{graphics}
+%\usepackage{epsfig}
+%\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+%\usepackage{listings}
+%\usepackage{color}
+%\usepackage{url}
+\usepackage{graphicx}
+%\usepackage{subfig}
+%\usepackage{caption}
+%\usepackage{algorithmic}
+%\usepackage{algorithm2e}
+%\usepackage{caption}
+%\let\subcaption\undefined
+%\usepackage{subcaption}
+\usepackage{subfig}
+
+
+
+
+% commands
+\newcommand{\inlinecode}{\texttt}
+\newcommand{\normal}{{\mathcal{N}}}
+\renewcommand{\Re}{{\mathbb{R}}}
+\newcommand{\R}{{\mathbb{R}}}
+\newcommand{\Q}{{\mathbb{Q}}}
+\newcommand{\Ze}{{\mathbb Z}}
+\newcommand{\B}{{\mathbb B}}
+\newcommand{\Ce}{{\mathbb C}}
+\newcommand{\N}{{\mathbb{N}}}
+\newcommand{\T}{{\mathbb T}}
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\eg}{{\it e.g.}}
+\newcommand{\ea}{{\it et al }}
+\renewcommand{\r}{\textcolor{red}}
+\renewcommand{\b}{\textcolor{blue}}
+\newcommand{\bk}{\textcolor{black}}
+\newcommand{\argmin}{\textrm{arg}\min}
+\newcommand{\Pre}{\mathrm{Pre}}
+\def\transform{{\mathsf{filter}}}
+\def\xduce{{\mathsf{xduce}}}
+\def\set#1{{\{ #1 \}}}
+\newcommand{\definedas}{\buildrel\triangle\over =}
+
+
+
+
+%	HYPHENATION CORRECTION	%
+\hyphenation{}
+
+% Page heads
+\markboth{P. Martin et al.}{Runtime Optimization of System Utility with Variable Hardware}
+
+% Title portion
+\title{Runtime Optimization of System Utility with Variable Hardware}
+\author{PAUL MARTIN \affil{Electrical Engineering Department, University of California, Los Angeles} 
+LUCAS WANNER \affil{Computer Science Department, University of California, Los Angeles}
+MANI SRIVASTAVA \affil{Electrical Engineering Department,  University of California, Los Angeles}
+}
+
+% NOTE! Affiliations placed here should be for the institution where the
+%       BULK of the research was done. If the author has gone to a new
+%       institution, before publication, the (above) affiliation should NOT be changed.
+%       The authors 'current' address may be given in the "Author's addresses:" block (below).
+%       So for example, Mr. Fogarty, the bulk of the research was done at UIUC, and he is
+%       currently affiliated with NASA.
+
+%			ABSTRACT			%
+\begin{abstract}
+Increasing hardware variability in newer integrated circuit fabrication technologies has caused corresponding power variations on a large scale.  These variations are particularly exaggerated for idle power consumption, motivating the need to mitigate the effects of variability in systems whose operation is dominated by long idle states with periodic active states.  In systems where computation is severely limited by anemic energy reserves and where a long overall system lifetime is desired, maximizing the quality of a given application subject to these constraints is both challenging and an important step towards achieving high quality deployments.  This work describes VaRTOS, an architecture and corresponding set of operating system abstractions that provide explicit treatment of both idle and active power variations for tasks running in real time operating systems. Tasks in VaRTOS express elasticity by exposing individual \emph{knobs}---shared variables that the operating system can tune to adjust task quality and correspondingly task power, maximizing application utility both on a per-task and system-wide basis.  We provide results regarding online learning of instance-specific sleep power, active power, and task-level power expenditure on simulated hardware with demonstrated effects for several prototypical applications. Our results show that VaRTOS can reduce variability-induced energy expenditure errors from over 70\% in many cases to under 2\% in most cases and under 5\% in the worst-case. 
+\end{abstract}
+
+\category{D.4.7}{Operating Systems}{Organization and Design}[Real-time systems and embedded systems]
+\category{D.4.1}{Operating Systems}{Process Management}[Threads]
+\category{C.3}{Special-purpose and Application-Based Systems}{}[Real-time and embedded systems]
+
+\terms{Design, Management, Performance}
+\keywords{Variability, embedded operating systems, power consumption}
+
+\acmformat{Paul Martin, Lucas Wanner, and Mani Srivastava. 2013. Runtime Optimization of System Utility with Variable Hardware.}
+% At a minimum you need to supply the author names, year and a title.
+% IMPORTANT:
+% Full first names whenever they are known, surname last, followed by a period.
+% In the case of two authors, 'and' is placed between them.
+% In the case of three or more authors, the serial comma is used, that is, all author names
+% except the last one but including the penultimate author's name are followed by a comma,
+% and then 'and' is placed before the final author's name.
+% If only first and middle initials are known, then each initial
+% is followed by a period and they are separated by a space.
+% The remaining information (journal title, volume, article number, date, etc.) is 'auto-generated'.
+
+\begin{document}
+
+\begin{bottomstuff}
+This work is supported in part by the NSF under grants \# CCF-1029030, CNS-0905580,
+CNS-0910706, and CNS-1143667\\
+Author's address: P. Martin, Electrical Engineering Department, 420 Westwood Plaza, 56-125KK EEIV, Los Angeles,
+C.A. 90095; email: pdmartin@ucla.edu; L. Wanner, Computer Science Department; email: wanner@ucla.edu; M. Srivastava, Electrical Engineering Department; email: mbs@ucla.edu
+\end{bottomstuff}
+
+\maketitle
+
+%\addtolength{\abovedisplayskip}{-8pt}
+%\addtolength{\belowdisplayskip}{-8pt}
+
+%\setlength{\abovedisplayskip}{0pt}
+%\setlength{\belowdisplayskip}{0pt}
+
+%		INCLUDED SECTIONS		%
+\input{sections/01_introduction} % Paul
+\input{sections/02_relatedwork} % Lucas
+\input{sections/03_variability} % Lucas
+\input{sections/04_optimization} % Paul
+\input{sections/05_vartos} % Paul
+\input{sections/06_methods} % Lucas
+\input{sections/07_evaluation} % Paul
+\input{sections/08_casestudies} % Paul
+\input{sections/09_conclusion} % Paul
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+The authors would like to thank Supriyo Chakraborty for help with the initial problem formalization, Liangzhen Lai for valuable input regarding power variation models, and Puneet Gupta for help with the VarEMU project and additional prior work.  This material is based in part upon work supported by the NSF under
+awards \# CCF-1029030, CNS-0905580,
+CNS-0910706, and CNS-1143667.  Any opinions, findings and conclusions
+or recommendations expressed
+in this material are those of the author(s) and do not necessarily
+reflect the views of the NSF.
+
+
+%	REFERENCES		%
+\bibliographystyle{ACM-Reference-Format-Journals}
+\bibliography{bibliography,variability}
+
+% History dates
+%\received{May 2013}{TBD}{TBD}
+
+% that's all folks
+\end{document}
+
+

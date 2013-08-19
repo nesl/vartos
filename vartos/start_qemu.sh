@@ -1,0 +1,1 @@
+../varemu/qemu-linaro/arm-softmmu/qemu-system-arm -M lm3s6965evb -kernel $1 -singlestep -variability ../varemu/power_model_data/45nm_i01.txt --serial stdio -temperature ../varemu/weather/CRNH0202-2009-CA_Stovepipe_Wells_1_SW.txt

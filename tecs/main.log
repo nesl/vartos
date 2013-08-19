@@ -1,0 +1,941 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 JUN 2013 09:22
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(./acmsmall.cls
+Document Class: acmsmall 2012/03/05, fonts included on 28 June 2010
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+ACM, Production Font style: 2010/06/28 by Aptara
+
+Using ACM, TECS option: 2010/05/04 by Aptara
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+Document Class `acmsmall' Electronic Submissions v1.4 <July 09, 2012> (ACM).
+\@firstpg=\count80
+\@lastpg=\count81
+\trimheight=\dimen104
+\trimwidth=\dimen105
+\normaltextheight=\dimen106
+\tempdimen=\dimen107
+\tempbox=\box26
+\tbbox=\box27
+\tabledim=\dimen108
+\symnewlargesymbols=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \bigsqcup on input line 2037.
+\normalparindent=\dimen109
+\footheight=\skip41
+\@maxsep=\skip42
+\@dblmaxsep=\skip43
+\@totalpg=\count82
+\@abstract=\box28
+\@permissionbox=\box29
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\enumdim=\dimen110
+\c@theorem=\count88
+\belowcaptionskip=\skip44
+\abovecaptionskip=\skip45
+\c@figure=\count89
+\c@table=\count90
+\@narrowfig=\dimen111
+\@nfigbox=\box30
+\@nfcapbox=\box31
+\@nfigbox=\box32
+\@nfcapbox=\box33
+\bibindent=\dimen112
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `normal'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 3619.
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `bold'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 3620.
+) (./algorithm2e.sty
+Package: algorithm2e 2008/00/00 v3.10 algorithms environments
+\c@AlgoLine=\count91
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2011/09/21 ver 4.0
+
+Examine \normalsize starts \@setfontsize size may be \@xpt. 
+Examine \small starts \@setfontsize size may be \@ixpt. 
+Examine \footnotesize starts \@setfontsize size may be \@viiipt. 
+Examine \large starts \@setfontsize size may be \@xiipt. 
+Examine \Large starts \@setfontsize size may be \@xivpt. 
+Examine \LARGE starts \@setfontsize size may be \@xviipt. 
+Examine \scriptsize starts \@setfontsize size may be \@viipt. 
+Examine \tiny starts \@setfontsize size may be \@vpt. 
+Examine \huge starts \@setfontsize size may be \@xxpt. 
+Examine \Huge starts \@setfontsize size may be \@xxvpt. )
+********************************************************
+Package `algorithm2e' Release 4.01 -- december 14 2009 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip46
+\skiplinenumber=\skip47
+\skiprule=\skip48
+\skiphlne=\skip49
+\skiptext=\skip50
+\skiplength=\skip51
+\algomargin=\skip52
+\skipalgocfslide=\skip53
+\algowidth=\dimen113
+\inoutsize=\dimen114
+\inoutline=\dimen115
+\interspacetitleruled=\dimen116
+\interspacealgoruled=\dimen117
+\interspacetitleboxruled=\dimen118
+\algocf@inoutbox=\box34
+\algocf@inputbox=\box35
+\AlCapSkip=\skip54
+\AlCapHSkip=\skip55
+\algocf@nlbox=\box36
+\algocf@hangingbox=\box37
+\algocf@capbox=\box38
+\algoheightruledefault=\skip56
+\algoheightrule=\skip57
+\algotitleheightruledefault=\skip58
+\algotitleheightrule=\skip59
+\c@algocfline=\count92
+\c@algocfproc=\count93
+\c@algocf=\count94
+\algocf@algoframe=\box39
+\algocf@algobox=\box40
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen119
+)
+LaTeX Info: Redefining \text on input line 53.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen120
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip11
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks16
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks17
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks18
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 97.
+))
+(./subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \FigName \@captype
+ \baselineskip 10pt \vskip \abovecaptionskip \setbox \@tempboxa \hbox {\figcapt
+ionfont {\figcaptionnumfont #1}.\hskip 7.3pt\relax #2\par }\ifdim \wd \@tempbox
+a >\hsize \figcaptionfont {\figcaptionnumfont #1}.\hskip 7.3pt\relax #2\par \el
+se \centerline {\box \@tempboxa }\fi \else \setbox \tbbox =\vbox {\hsize \tempd
+imen \tablecaptionfont {\tablenumfont #1.\ }{#2\par }}\setbox \@tempboxa \hbox 
+{\hsize \tempdimen \tablecaptionfont {\tablenumfont #1.}\ {#2\par }}\ifdim \wd 
+\@tempboxa >\tempdimen \centerline {\box \tbbox }\else \centerline {\box \@temp
+boxa }\fi \vskip \belowcaptionskip \fi .
+\c@ContinuedFloat=\count107
+)
+\c@KVtest=\count108
+\sf@farskip=\skip63
+\sf@captopadj=\dimen134
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
+\c@subfigure=\count109
+\c@subfigure@save=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@subtable@save=\count113
+\c@lotdepth=\count114
+\sf@top=\skip66
+\sf@bottom=\skip67
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 114.
+
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1pnc.fd
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+) (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen135
+\scratchbox=\box43
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen136
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 121.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 121.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 121.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 121.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omspnc.fd
+File: omspnc.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 123.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 123.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <8> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 123.
+
+(./sections/01_introduction.tex
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+
+Overfull \vbox (72.27pt too high) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+
+] <figures/itrs.pdf, id=15, 635.37375pt x 379.4175pt>
+File: figures/itrs.pdf Graphic file (type pdf)
+
+<use figures/itrs.pdf>
+Package pdftex.def Info: figures/itrs.pdf used on input line 29.
+(pdftex.def)             Requested size: 186.12048pt x 111.13982pt.
+
+<figures/intro_quality_vs_lifetime.pdf, id=16, 868.24374pt x 507.8975pt>
+File: figures/intro_quality_vs_lifetime.pdf Graphic file (type pdf)
+
+<use figures/intro_quality_vs_lifetime.pdf>
+Package pdftex.def Info: figures/intro_quality_vs_lifetime.pdf used on input li
+ne 35.
+(pdftex.def)             Requested size: 186.12048pt x 108.87033pt.
+ [2 <./figures/itrs.pdf> <./figures/intro_quality_vs_lifetime.pdf>]) (./section
+s/02_relatedwork.tex [3])
+(./sections/03_variability.tex [4]
+<figures/sleep_power.pdf, id=54, 412.54124pt x 276.03125pt>
+File: figures/sleep_power.pdf Graphic file (type pdf)
+
+<use figures/sleep_power.pdf>
+Package pdftex.def Info: figures/sleep_power.pdf used on input line 47.
+(pdftex.def)             Requested size: 190.07831pt x 127.18228pt.
+
+<figures/active_power.pdf, id=55, 412.54124pt x 276.03125pt>
+File: figures/active_power.pdf Graphic file (type pdf)
+
+<use figures/active_power.pdf>
+Package pdftex.def Info: figures/active_power.pdf used on input line 48.
+(pdftex.def)             Requested size: 190.07831pt x 127.18228pt.
+ [5 <./figures/sleep_power.pdf> <./figures/active_power.pdf>]) (./sections/04_o
+ptimization.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 16.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Package epstopdf Info: Source file: <figures/utilityfunctions.eps>
+(epstopdf)                    date: 2013-06-04 23:27:45
+(epstopdf)                    size: 11939 bytes
+(epstopdf)             Output file: <figures/utilityfunctions-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2013-06-04 23:27:57
+(epstopdf)                    size: 9190 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/utilityfunctions-e
+ps-converted-to.pdf figures/utilityfunctions.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/utilityfunctions-eps-converted-to.pdf, id=81, 359.3425pt x 222.8325pt>
+File: figures/utilityfunctions-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/utilityfunctions-eps-converted-to.pdf>
+Package pdftex.def Info: figures/utilityfunctions-eps-converted-to.pdf used on 
+input line 59.
+(pdftex.def)             Requested size: 186.12048pt x 115.41794pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figures/utilityfunctions-eps-converted-to.pdf>] [8]
+Package epstopdf Info: Source file: <figures/optimalDCexample.eps>
+(epstopdf)                    date: 2013-05-31 02:08:44
+(epstopdf)                    size: 14466 bytes
+(epstopdf)             Output file: <figures/optimalDCexample-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2013-05-31 02:09:00
+(epstopdf)                    size: 11784 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/optimalDCexample-e
+ps-converted-to.pdf figures/optimalDCexample.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/optimalDCexample-eps-converted-to.pdf, id=96, 363.3575pt x 222.8325pt>
+File: figures/optimalDCexample-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/optimalDCexample-eps-converted-to.pdf>
+Package pdftex.def Info: figures/optimalDCexample-eps-converted-to.pdf used on 
+input line 119.
+(pdftex.def)             Requested size: 186.12048pt x 114.14288pt.
+Package epstopdf Info: Source file: <figures/utilanddc.eps>
+(epstopdf)                    date: 2013-05-31 02:07:39
+(epstopdf)                    size: 11773 bytes
+(epstopdf)             Output file: <figures/utilanddc-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-31 02:08:12
+(epstopdf)                    size: 7586 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/utilanddc-eps-conv
+erted-to.pdf figures/utilanddc.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/utilanddc-eps-converted-to.pdf, id=97, 361.35pt x 222.8325pt>
+File: figures/utilanddc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/utilanddc-eps-converted-to.pdf>
+Package pdftex.def Info: figures/utilanddc-eps-converted-to.pdf used on input l
+ine 125.
+(pdftex.def)             Requested size: 186.12048pt x 114.77531pt.
+
+Underfull \hbox (badness 3250) in paragraph at lines 126--126
+[]\OT1/pnc/m/n/10 Fig. 6: |[]Ex-am-ple op-ti-mal duty cy-cle
+ []
+
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <9> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 142.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 167.
+) (./sections/05_vartos.tex [9 <./figures/optimalDCexample-eps-converted-to.pdf
+> <./figures/utilanddc-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/powerlearning.eps>
+(epstopdf)                    date: 2013-05-31 02:10:38
+(epstopdf)                    size: 49234 bytes
+(epstopdf)             Output file: <figures/powerlearning-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2013-05-31 02:10:52
+(epstopdf)                    size: 34622 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/powerlearning-eps-
+converted-to.pdf figures/powerlearning.eps>
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/powerlearning-eps-converted-to.pdf, id=111, 722.7pt x 412.54124pt>
+File: figures/powerlearning-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/powerlearning-eps-converted-to.pdf>
+Package pdftex.def Info: figures/powerlearning-eps-converted-to.pdf used on inp
+ut line 9.
+(pdftex.def)             Requested size: 186.12048pt x 106.21385pt.
+Package epstopdf Info: Source file: <figures/powerlearning.eps>
+(epstopdf)                    date: 2013-05-31 02:10:38
+(epstopdf)                    size: 49234 bytes
+(epstopdf)             Output file: <figures/powerlearning-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2013-05-31 02:10:52
+(epstopdf)                    size: 34622 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/powerlearning-eps-
+converted-to.pdf figures/powerlearning.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/powerlearning-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/powerlearning-eps-converted-to.pdf>
+Package pdftex.def Info: figures/powerlearning-eps-converted-to.pdf used on inp
+ut line 10.
+(pdftex.def)             Requested size: 186.12048pt x 106.21385pt.
+Package epstopdf Info: Source file: <figures/powerlearning.eps>
+(epstopdf)                    date: 2013-05-31 02:10:38
+(epstopdf)                    size: 49234 bytes
+(epstopdf)             Output file: <figures/powerlearning-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2013-05-31 02:10:52
+(epstopdf)                    size: 34622 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/powerlearning-eps-
+converted-to.pdf figures/powerlearning.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/powerlearning-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/powerlearning-eps-converted-to.pdf>
+Package pdftex.def Info: figures/powerlearning-eps-converted-to.pdf used on inp
+ut line 11.
+(pdftex.def)             Requested size: 186.12048pt x 106.21385pt.
+Package epstopdf Info: Source file: <figures/powerlearning.eps>
+(epstopdf)                    date: 2013-05-31 02:10:38
+(epstopdf)                    size: 49234 bytes
+(epstopdf)             Output file: <figures/powerlearning-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2013-05-31 02:10:52
+(epstopdf)                    size: 34622 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/powerlearning-eps-
+converted-to.pdf figures/powerlearning.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/powerlearning-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/powerlearning-eps-converted-to.pdf>
+Package pdftex.def Info: figures/powerlearning-eps-converted-to.pdf used on inp
+ut line 12.
+(pdftex.def)             Requested size: 186.12048pt x 106.21385pt.
+ [10]
+Underfull \vbox (badness 1584) has occurred while \output is active []
+
+ [11 <./figures/powerlearning-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/powerconvergence.eps>
+(epstopdf)                    date: 2013-05-31 02:13:12
+(epstopdf)                    size: 16624 bytes
+(epstopdf)             Output file: <figures/powerconvergence-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2013-05-31 02:13:32
+(epstopdf)                    size: 15351 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/powerconvergence-e
+ps-converted-to.pdf figures/powerconvergence.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/powerconvergence-eps-converted-to.pdf, id=142, 361.35pt x 222.8325pt>
+File: figures/powerconvergence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/powerconvergence-eps-converted-to.pdf>
+Package pdftex.def Info: figures/powerconvergence-eps-converted-to.pdf used on 
+input line 29.
+(pdftex.def)             Requested size: 186.12048pt x 114.77531pt.
+
+<figures/temperature_estimation_error.pdf, id=143, 408.52625pt x 227.85126pt>
+File: figures/temperature_estimation_error.pdf Graphic file (type pdf)
+
+<use figures/temperature_estimation_error.pdf>
+Package pdftex.def Info: figures/temperature_estimation_error.pdf used on input
+ line 35.
+(pdftex.def)             Requested size: 186.12048pt x 103.80806pt.
+ [12 <./figures/powerconvergence-eps-converted-to.pdf> <./figures/temperature_e
+stimation_error.pdf>] [13]
+<figures/matlab_gui.png, id=164, 746.79pt x 466.74374pt>
+File: figures/matlab_gui.png Graphic file (type png)
+
+<use figures/matlab_gui.png>
+Package pdftex.def Info: figures/matlab_gui.png used on input line 77.
+(pdftex.def)             Requested size: 396.0pt x 247.50119pt.
+
+<figures/statechart.pdf, id=165, 485.51689pt x 123.46124pt>
+File: figures/statechart.pdf Graphic file (type pdf)
+
+<use figures/statechart.pdf>
+Package pdftex.def Info: figures/statechart.pdf used on input line 86.
+(pdftex.def)             Requested size: 396.0pt x 100.70007pt.
+ [14 <./figures/matlab_gui.png> <./figures/statechart.pdf>]) (./sections/06_met
+hods.tex [15]) (./sections/07_evaluation.tex
+Package epstopdf Info: Source file: <figures/app1_nonoise.eps>
+(epstopdf)                    date: 2013-05-31 02:19:30
+(epstopdf)                    size: 26070 bytes
+(epstopdf)             Output file: <figures/app1_nonoise-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2013-05-31 02:19:38
+(epstopdf)                    size: 12593 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/app1_nonoise-eps-c
+onverted-to.pdf figures/app1_nonoise.eps>
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/app1_nonoise-eps-converted-to.pdf, id=196, 964.60374pt x 219.82124pt>
+File: figures/app1_nonoise-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/app1_nonoise-eps-converted-to.pdf>
+Package pdftex.def Info: figures/app1_nonoise-eps-converted-to.pdf used on inpu
+t line 9.
+(pdftex.def)             Requested size: 396.0pt x 90.24132pt.
+ [16 <./figures/app1_nonoise-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/app1_energycomp.eps>
+(epstopdf)                    date: 2013-05-31 15:59:06
+(epstopdf)                    size: 11883 bytes
+(epstopdf)             Output file: <figures/app1_energycomp-eps-converted-to.p
+df>
+(epstopdf)                    date: 2013-05-31 16:00:33
+(epstopdf)                    size: 8983 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/app1_energycomp-ep
+s-converted-to.pdf figures/app1_energycomp.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/app1_energycomp-eps-converted-to.pdf, id=206, 360.34625pt x 222.8325pt
+>
+File: figures/app1_energycomp-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/app1_energycomp-eps-converted-to.pdf>
+Package pdftex.def Info: figures/app1_energycomp-eps-converted-to.pdf used on i
+nput line 30.
+(pdftex.def)             Requested size: 186.12048pt x 115.09152pt.
+
+Underfull \hbox (badness 2970) in paragraph at lines 31--31
+[]\OT1/pnc/m/n/10 Fig. 13: |[]Er-rors in en-ergy con-sump-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 31--31
+\OT1/pnc/m/n/10 tion for a single-task ap-pli-ca-tion for
+ []
+
+Package epstopdf Info: Source file: <figures/app1_dutycycles.eps>
+(epstopdf)                    date: 2013-05-31 15:59:07
+(epstopdf)                    size: 11428 bytes
+(epstopdf)             Output file: <figures/app1_dutycycles-eps-converted-to.p
+df>
+(epstopdf)                    date: 2013-05-31 16:00:33
+(epstopdf)                    size: 8285 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/app1_dutycycles-ep
+s-converted-to.pdf figures/app1_dutycycles.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/app1_dutycycles-eps-converted-to.pdf, id=207, 357.335pt x 222.8325pt>
+File: figures/app1_dutycycles-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/app1_dutycycles-eps-converted-to.pdf>
+Package pdftex.def Info: figures/app1_dutycycles-eps-converted-to.pdf used on i
+nput line 36.
+(pdftex.def)             Requested size: 186.12048pt x 116.06396pt.
+Package epstopdf Info: Source file: <figures/app1_oracle.eps>
+(epstopdf)                    date: 2013-06-01 01:54:25
+(epstopdf)                    size: 11915 bytes
+(epstopdf)             Output file: <figures/app1_oracle-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-01 01:55:06
+(epstopdf)                    size: 8792 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/app1_oracle-eps-co
+nverted-to.pdf figures/app1_oracle.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/app1_oracle-eps-converted-to.pdf, id=208, 357.335pt x 222.8325pt>
+File: figures/app1_oracle-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/app1_oracle-eps-converted-to.pdf>
+Package pdftex.def Info: figures/app1_oracle-eps-converted-to.pdf used on input
+ line 46.
+(pdftex.def)             Requested size: 186.12048pt x 116.06396pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./figures/app1_energycomp-eps-converted-to.pdf> <./figures/app1_dutycycle
+s-eps-converted-to.pdf> <./figures/app1_oracle-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+[18]) (./sections/08_casestudies.tex
+<figures/localization_snapshot2.pdf, id=231, 412.82932pt x 412.82932pt>
+File: figures/localization_snapshot2.pdf Graphic file (type pdf)
+
+<use figures/localization_snapshot2.pdf>
+Package pdftex.def Info: figures/localization_snapshot2.pdf used on input line 
+11.
+(pdftex.def)             Requested size: 198.0pt x 197.99832pt.
+ [19 <./figures/localization_snapshot2.pdf>]
+Package epstopdf Info: Source file: <figures/localization_variance_var.eps>
+(epstopdf)                    date: 2013-05-31 02:30:21
+(epstopdf)                    size: 11872 bytes
+(epstopdf)             Output file: <figures/localization_variance_var-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2013-05-31 02:31:03
+(epstopdf)                    size: 8811 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/localization_varia
+nce_var-eps-converted-to.pdf figures/localization_variance_var.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/localization_variance_var-eps-converted-to.pdf, id=259, 369.38pt x 222
+.8325pt>
+File: figures/localization_variance_var-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/localization_variance_var-eps-converted-to.pdf>
+Package pdftex.def Info: figures/localization_variance_var-eps-converted-to.pdf
+ used on input line 23.
+(pdftex.def)             Requested size: 186.12048pt x 112.2796pt.
+
+Underfull \hbox (badness 2970) in paragraph at lines 24--24
+[]\OT1/pnc/m/n/10 Fig. 17: |[]Re-duced er-ror vari-ance for
+ []
+
+Package epstopdf Info: Source file: <figures/localization_variance_novar.eps>
+(epstopdf)                    date: 2013-05-31 02:31:24
+(epstopdf)                    size: 12038 bytes
+(epstopdf)             Output file: <figures/localization_variance_novar-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-05-31 02:31:40
+(epstopdf)                    size: 9004 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/localization_varia
+nce_novar-eps-converted-to.pdf figures/localization_variance_novar.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/localization_variance_novar-eps-converted-to.pdf, id=260, 369.38pt x 2
+22.8325pt>
+File: figures/localization_variance_novar-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use figures/localization_variance_novar-eps-converted-to.pdf>
+Package pdftex.def Info: figures/localization_variance_novar-eps-converted-to.p
+df used on input line 29.
+(pdftex.def)             Requested size: 186.12048pt x 112.2796pt.
+
+Underfull \hbox (badness 1394) in paragraph at lines 30--30
+[]\OT1/pnc/m/n/10 Fig. 18: |[]In-creased er-ror vari-ance for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\OT1/pnc/m/n/10 multi-agent lo-cal-iza-tion as-sum-ing
+ []
+
+
+Underfull \vbox (badness 1810) has occurred while \output is active []
+
+ [20 <./figures/localization_variance_var-eps-converted-to.pdf> <./figures/loca
+lization_variance_novar-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/kalman_example_vel.eps>
+(epstopdf)                    date: 2013-05-31 02:32:44
+(epstopdf)                    size: 15170 bytes
+(epstopdf)             Output file: <figures/kalman_example_vel-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2013-05-31 02:35:06
+(epstopdf)                    size: 12569 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kalman_example_vel
+-eps-converted-to.pdf figures/kalman_example_vel.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/kalman_example_vel-eps-converted-to.pdf, id=274, 364.36125pt x 222.832
+5pt>
+File: figures/kalman_example_vel-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kalman_example_vel-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kalman_example_vel-eps-converted-to.pdf used o
+n input line 100.
+(pdftex.def)             Requested size: 186.12048pt x 113.82327pt.
+Package epstopdf Info: Source file: <figures/kalman_results.eps>
+(epstopdf)                    date: 2013-05-31 16:06:39
+(epstopdf)                    size: 10445 bytes
+(epstopdf)             Output file: <figures/kalman_results-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2013-05-31 16:06:52
+(epstopdf)                    size: 8365 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kalman_results-eps
+-converted-to.pdf figures/kalman_results.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/kalman_results-eps-converted-to.pdf, id=275, 364.36125pt x 222.8325pt>
+File: figures/kalman_results-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/kalman_results-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kalman_results-eps-converted-to.pdf used on in
+put line 106.
+(pdftex.def)             Requested size: 186.12048pt x 113.82327pt.
+ [21 <./figures/kalman_example_vel-eps-converted-to.pdf> <./figures/kalman_resu
+lts-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/app3_energycomp.eps>
+(epstopdf)                    date: 2013-05-31 02:37:12
+(epstopdf)                    size: 11119 bytes
+(epstopdf)             Output file: <figures/app3_energycomp-eps-converted-to.p
+df>
+(epstopdf)                    date: 2013-05-31 02:37:27
+(epstopdf)                    size: 8891 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/app3_energycomp-ep
+s-converted-to.pdf figures/app3_energycomp.eps>
+(epstopdf)             \includegraphics on input line 160.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/app3_energycomp-eps-converted-to.pdf, id=290, 448.67625pt x 273.02pt>
+File: figures/app3_energycomp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/app3_energycomp-eps-converted-to.pdf>
+Package pdftex.def Info: figures/app3_energycomp-eps-converted-to.pdf used on i
+nput line 160.
+(pdftex.def)             Requested size: 237.60242pt x 144.57909pt.
+)
+(./sections/09_conclusion.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./figures/app3_energycomp-eps-converted-to.pdf>] (./main.bbl [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
+[]\OT1/pnc/m/n/8 VarEMU Project. 2013. An em-u-la-tion testbed for Variability-
+Aware Soft-ware.
+ []
+
+) [25] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 5656 strings out of 493488
+ 81498 string characters out of 3141326
+ 170775 words of memory out of 3000000
+ 8801 multiletter control sequences out of 15000+200000
+ 32097 words of font info for 80 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 44i,18n,46p,3123b,525s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw
+/ncntrsbk/uncr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ncntrs
+bk/uncri8a.pfb>
+Output written on main.pdf (25 pages, 850830 bytes).
+PDF statistics:
+ 393 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,102 @@
+%		DOCUMENT CLASS			%
+\documentclass[conference]{IEEEtran}
+
+%		PACKAGES & MACROS		%
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{listings}
+\usepackage{color}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{caption}
+\usepackage{algorithmic}
+\usepackage{algorithm2e}
+
+% commands
+\renewcommand{\Re}{{\mathbb{R}}}
+\newcommand{\R}{{\mathbb{R}}}
+\newcommand{\Q}{{\mathbb{Q}}}
+\newcommand{\Ze}{{\mathbb Z}}
+\newcommand{\B}{{\mathbb B}}
+\newcommand{\Ce}{{\mathbb C}}
+\newcommand{\N}{{\mathbb{N}}}
+\newcommand{\T}{{\mathbb T}}
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\eg}{{\it e.g.}}
+\newcommand{\ea}{{\it et al }}
+\renewcommand{\r}{\textcolor{red}}
+\renewcommand{\b}{\textcolor{blue}}
+\newcommand{\bk}{\textcolor{black}}
+\newcommand{\argmin}{\textrm{arg}\min}
+\newcommand{\Pre}{\mathrm{Pre}}
+\def\transform{{\mathsf{filter}}}
+\def\xduce{{\mathsf{xduce}}}
+\def\set#1{{\{ #1 \}}}
+
+%	HYPHENATION CORRECTION	%
+\hyphenation{}
+
+%		BEGIN DOCUMENT			%
+\begin{document}
+
+%		    PAPER TITLE    			%
+\title{VaRTOS: Optimizing Application Utility with Variable Hardware }
+
+
+
+%		AUTHOR NAMES			%
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{
+\IEEEauthorblockN{Paul Martin$^\dagger$, Lucas Wanner$^*$, Puneet Gupta$^\dagger$, \& Mani  Srivastava$^\dagger$}
+\IEEEauthorblockA{$^\dagger$Department of Electrical Engineering, $^*$Department of Computer Science\\
+University of California, Los Angeles\\
+Email: \{ pdmartin, wanner, mbs \} @ucla.edu ~~ \{ puneet \} @ee.ucla.edu }\\
+\vspace{5mm}
+}
+
+
+% make the title area
+\maketitle
+
+
+%			ABSTRACT			%
+\begin{abstract}
+
+Increasing hardware variability in newer fabrication technologies has spurred research in kind, spanning the entire spectrum of computing.  One domain that stands to benefit greatly from research into combatting hardware variation is that of low power embedded systems and low power sensors. Systems tasked with performing sensing, routing, and inference tasks over extended lifetimes with limited energy reserves often resort to very liberal duty cycling, reducing the total active time spent on any given task.  The lifetimes of such systems are largely dominated by leakage power in idle states---an entity that is greatly affected by hardware variation. We present VaRTOS, an architecture and corresponding kernel extensions that provide explicit treatment of both sleep and active power variations for duty cycled tasks running in real time operating systems. VaRTOS seeks to maximize application utility while converging on an optimal duty cycle both on a per-task basis and on a system-wide basis.  In doing so, we provide results regarding online learning of instance-specific sleep power, active power, and temperature profiles on simulated hardware with demonstrated effects for several prototypical applications. 
+
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+
+%		INCLUDED SECTIONS		%
+\input{sections/01_introduction}
+\input{sections/02_relatedwork}
+\input{sections/03_variability}
+\input{sections/04_vartos}
+\input{sections/05_evaluation}
+\input{sections/06_conclusion}
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+The authors would like to thank...
+
+
+
+%	REFERENCES		%
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+
+
+
+% that's all folks
+\end{document}
+
+
